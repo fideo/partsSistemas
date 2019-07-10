@@ -60,22 +60,22 @@ export default {
       { title: "Inicio", icon: "home", link: "/" },
       {
         title: "Transporte Público",
-        icon: "account_circle",
+        icon: "directions_subway",
         link: "../transporte_publico"
       },
       {
         title: "Tránsito Vehícular",
-        icon: "build",
+        icon: "directions_car",
         link: "../transito_vehicular"
       },
       {
         title: "Banking",
-        icon: "phone",
+        icon: "account_balance",
         link: "../banking"
       },
       {
         title: "Control de Acceso",
-        icon: "note",
+        icon: "vpn_key",
         link: "../control_de_acceso"
       }
     ]
