@@ -10,7 +10,7 @@
       md6
     >
       <div class="text-xs-center">
-        <vuetify-logo />
+        <parts-sistemas-logo />
       </div>
       <div class="text-xs-center">
         <logo />
@@ -28,12 +28,12 @@
 </template>
 
 <script>
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
+import PartsSistemasLogo from '~/components/PartsSistemasLogo.vue'
 import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    VuetifyLogo,
+    PartsSistemasLogo,
     Logo
   }
 }
