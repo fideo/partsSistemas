@@ -22,9 +22,10 @@ $ npm run generate
 ## TO DO
 
 * Estructura
-* Logo en Vectorial
+* ***Logo en Vectorial***
 * Contenído
 * Ítems de menú 
 
+***Lo que está en negrita y cursiva ya está realizado***
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).

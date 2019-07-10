@@ -1,7 +1,9 @@
 {
   "name": "partsSistemas",
+  "empresa": "Parts Sistemas",
+  "descripcionEmpresa": "Soluciones Integrales de Ingeniería para el Mercado Global",
   "version": "1.0.0",
-  "description": "Sitio Web de Parts Sistemas desarrollado con NUXT JS",
+  "description": "Soluciones Integrales de Ingeniería para el Mercado Global",
   "author": "Federico Mazzei",
   "private": true,
   "scripts": {
