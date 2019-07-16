@@ -74,4 +74,10 @@ export default {
 .footer {
   background-color: lightgray;
 }
+@media (max-width: 780px) {
+  .footer {
+    background-color: lightgray;
+    padding: 2.5em;
+  }
+}
 </style>
