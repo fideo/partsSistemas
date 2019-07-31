@@ -22,7 +22,7 @@
                   align-end
                   flexbox
                 >
-                  <h1 class="blue-grey--text text--darken-4 ">Transporte Vehícular</h1>
+                  <h1 class="blue-grey--text text--darken-4">Tránsito Vehicular</h1>
                 </v-flex>
               </v-layout>
             </v-container>
@@ -69,7 +69,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head:{
+    title: 'Tránsito Vehicular'
+  },
+};
 </script>
 
 <style scoped>

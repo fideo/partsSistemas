@@ -20,9 +20,13 @@
                 row
                 wrap
               >
-                <h1 class="blue-grey--text text--darken-4 ">Transporte Público</h1>
+                <h1 class="blue-grey--text text--darken-4">Transporte Público</h1>
               </v-layout>
             </v-container>
+            <v-card-actions class="mt-5 pt-5">
+              <v-spacer></v-spacer>
+              <v-btn color="primary" to="expendedoras_de_pasajes">Expendedoras de pasajes</v-btn>
+            </v-card-actions>
           </v-img>
           <v-card-title>
             <div class="pt-3">
@@ -66,7 +70,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    title: 'Transporte Público'
+  }
+};
 </script>
 
 <style scoped>

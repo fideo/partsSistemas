@@ -69,7 +69,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    title: 'Control de Acceso'
+  }
+};
 </script>
 
 <style scoped>

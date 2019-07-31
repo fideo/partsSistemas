@@ -38,6 +38,9 @@ import PartsSistemasLogo from "~/components/PartsSistemasLogo.vue";
 import Logo from "~/components/Logo.vue";
 
 export default {
+  head:{
+    title: 'Parts Sistemas'
+  },
   components: {
     PartsSistemasLogo,
     Logo

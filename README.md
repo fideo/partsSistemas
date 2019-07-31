@@ -21,10 +21,10 @@ $ npm run generate
 
 ## TO DO
 
-* Estructura
+* ***Estructura***
 * ***Logo en Vectorial***
 * Contenído
-* Ítems de menú 
+* ***Ítems de menú ***
 
 ***Lo que está en negrita y cursiva ya está realizado***
 
