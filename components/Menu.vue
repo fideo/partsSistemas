@@ -61,22 +61,22 @@ export default {
       {
         title: "Transporte Público",
         icon: "directions_subway",
-        link: "../transporte_publico"
+        link: "../transporte_publico/"
       },
       {
         title: "Tránsito Vehícular",
         icon: "directions_car",
-        link: "../transito_vehicular"
+        link: "../transito_vehicular/"
       },
       {
         title: "Banking",
         icon: "account_balance",
-        link: "../banking"
+        link: "../banking/"
       },
       {
         title: "Control de Acceso",
         icon: "vpn_key",
-        link: "../control_de_acceso"
+        link: "../control_de_acceso/"
       }
     ]
   })

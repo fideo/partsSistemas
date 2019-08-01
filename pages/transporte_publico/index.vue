@@ -25,7 +25,7 @@
             </v-container>
             <v-card-actions class="mt-5 pt-5">
               <v-spacer></v-spacer>
-              <v-btn color="primary" to="expendedoras_de_pasajes">Expendedoras de pasajes</v-btn>
+              <menuTransportePublico />
             </v-card-actions>
           </v-img>
           <v-card-title>
@@ -70,7 +70,11 @@
 </template>
 
 <script>
+import menuTransportePublico from '~/components/menuTransportePublico';
 export default {
+  components: {
+    menuTransportePublico
+  },
   head: {
     title: 'Transporte Público'
   }
