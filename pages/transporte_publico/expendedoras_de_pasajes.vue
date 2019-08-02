@@ -73,7 +73,7 @@
                     md12
                   >
                     <v-card-text>
-                      <div class="headline">Nuestro Presente</div>
+                      <div class="subtitulo font-weight-bold amber--text">Nuestro Presente</div>
                       <div class="font-weight-medium">La experiencia de más de una década en el diseño, fabricación y programación de expendedoras de pasajes nos permite contar hoy con eq uipos de última generación</div>
                     </v-card-text>
                   </v-flex>
@@ -104,7 +104,7 @@
                     xs12
                     sm12
                     md12>
-                    <div class="display-1 text-md-center text-xs-center text-sm-center">Todas las prestaciones en un solo equipo</div>
+                    <div class="display-1 text-md-center text-xs-center text-sm-center pt-4 pb-4 amber white--text">Todas las prestaciones en un solo equipo</div>
                   </v-flex>
                   <v-card-text>
                     <p class="pl-4 pr-4">
@@ -134,6 +134,10 @@ export default {
 </script>
 
 <style scoped>
+.subtitulo {
+  font-family: "Ubuntu";
+  font-size: 2.5vw;
+}
 p::first-letter {
   font-weight: bold;
   color: #ffab00;

@@ -64,7 +64,7 @@ export default {
         link: "../transporte_publico/"
       },
       {
-        title: "Tránsito Vehícular",
+        title: "Tránsito Vehicular",
         icon: "directions_car",
         link: "../transito_vehicular/"
       },
@@ -82,3 +82,9 @@ export default {
   })
 };
 </script>
+
+<style  scoped>
+.v-btn--active {
+  color: gray
+}
+</style>

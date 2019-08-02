@@ -13,19 +13,20 @@
             src="/images/transporteVehicular.jpg"
           >
             <v-container
-              fill-height
+              grid-list-md
               fluid
             >
-              <v-layout fill-height>
-                <v-flex
-                  xs12
-                  align-end
-                  flexbox
-                >
-                  <h1 class="blue-grey--text text--darken-4">Tránsito Vehicular</h1>
-                </v-flex>
+              <v-layout
+                row
+                wrap
+              >
+                <h1 class="blue-grey--text text--darken-4">Tránsito Vehicular</h1>
               </v-layout>
             </v-container>
+            <v-card-actions class="mt-5 pt-5">
+              <v-spacer></v-spacer>
+              <menuTransitoVehicular />
+            </v-card-actions>
           </v-img>
           <v-card-title>
             <div class="pt-3">
@@ -55,7 +56,72 @@
                     md6
                   >
                     <v-card-text class="px-0">
-                      <p class="pl-4 pr-4">Actualmente estamos ofreciendo sistemas de control de tránsito de última generación basados en radares que permiten detectar excesos de velocidad, invasión de senda peatonal y cruce de semáforos con luz roja. Así mismo, estamos presentando el nuevo Sistema de Advertencia Temprana de Intersecciones Vehiculares basado también en tecnología no intrusiva</p>
+                      <p class="pl-4 pr-4">Actualmente111 estamos ofreciendo sistemas de control de tránsito de última generación basados en radares que permiten detectar excesos de velocidad, invasión de senda peatonal y cruce de semáforos con luz roja. Así mismo, estamos presentando el nuevo Sistema de Advertencia Temprana de Intersecciones Vehiculares basado también en tecnología no intrusiva</p>
+                    </v-card-text>
+                  </v-flex>
+                  <v-flex
+                    d-flex
+                    x12
+                    sm4
+                    md4
+                  >
+                  <v-img
+                    class="white--text"
+                    height="250px"
+                    src="/images/controlesDeEstacionamiento.jpg"
+                  />
+                  </v-flex>
+                  <v-flex
+                    d-flex
+                    x12
+                    sm4
+                    md4
+                  >
+                  <v-img
+                    class="white--text"
+                    height="250px"
+                    src="/images/controlesDeSemaforos.jpg"
+                  />
+                  </v-flex>
+                  <v-flex
+                    d-flex
+                    x12
+                    sm4
+                    md4
+                  ><v-img
+                    class="white--text"
+                    height="250px"
+                    src="/images/controlesDeVelocidad.jpg"
+                  />
+                  </v-flex>
+                  <v-flex
+                    d-flex
+                    x12
+                    sm4
+                    md4>
+                    <v-card-text>
+                      <span class="title">Controles de Estacionamiento</span>
+                      <div class="text-md-justify pt-3">Parts Sistemas ofrece distintas soluciones para el control urbano de estacionamiento medido. Sistema de Gestión de Estacionamiento basados en parquímetros con pago en monedas, tarjetas de crédito y monederos electrónicos, con impresión de tickets y administración remota centralizada. Y sistemas basados en telefonía celular mediante el envío y recepción de sms.</div>
+                    </v-card-text>
+                  </v-flex>
+                  <v-flex
+                    d-flex
+                    x12
+                    sm4
+                    md4>
+                    <v-card-text>
+                      <span class="title">Controles de Semáforos</span>
+                      <div class="text-md-justify pt-3">Desarrollamos contadores de cuenta regresiva basados en microcontroladores inteligentes que tienen la capacidad de sincronizarse de forma automática con cualquier tipo y modelo de semáforo. Tampoco requiere acceder a la red semafórica ni programación previa de la unidad. Posee caracteres de gran tamaño basado en leds de alta luminosidad y gabinete IP65.</div>
+                    </v-card-text>
+                  </v-flex>
+                  <v-flex
+                    d-flex
+                    x12
+                    sm4
+                    md4>
+                    <v-card-text>
+                      <span class="title">Controles de Velocidad</span>
+                      <div class="text-md-justify pt-3">Proveemos soluciones basadas en radares doppler que permiten detectar vehículos, contarlos, determinar su sentido y hasta medir su velocidad. A partir de esta tecnología ofrecemos productos para controlar la velocidad vehicular en calles, colegios, barrios cerrados, etc. Sistemas de información para evitar accidentes y sistemas de control de cruce con semáforo en luz roja.</div>
                     </v-card-text>
                   </v-flex>
                 </v-layout>
@@ -69,7 +135,11 @@
 </template>
 
 <script>
+import menuTransitoVehicular from '~/components/menuTransitoVehicular';
 export default {
+  components: {
+    menuTransitoVehicular
+  },
   head:{
     title: 'Tránsito Vehicular'
   },

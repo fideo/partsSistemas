@@ -31,7 +31,7 @@
           <v-card-title>
             <div class="pt-3">
               <h2 class="pt-3 pl-4">Molinetes de Alto Tránsito</h2>
-              <h4 class="pt-3 pl-4 pr-4">Parts Sistemas diseña molinetes pensados para trabajar en entornos muy exigentes, de uso intensivo y con altos requerimientos mecánicos y funcion ales</h4>
+              <h4 class="pt-3 pl-4 pr-4">Parts Sistemas diseña molinetes pensados para trabajar en entornos muy exigentes, de uso intensivo y con altos requerimientos mecánicos y funcionales</h4>
               <v-container
                 fluid
                 grid-list-md
@@ -79,7 +79,7 @@
                     md4>
                     <v-card-text>
                       <span class="title">Características Principales</span>
-                      <ul>
+                      <ul class="pt-3">
                         <li>Construido en acero inoxidable</li>
                         <li>Mecanismo de alta durabilidad</li>
                         <li>Amortiguador fin de recorrido</li>
@@ -99,7 +99,7 @@
                     md4>
                     <v-card-text>
                       <span class="title">Ventajas Competitivas</span>
-                      <ul>
+                      <ul class="pt-3">
                         <li>Diseñado para uso intensivo</li>
                         <li>Alta velocidad de operación</li>
                         <li>Excelente Robustez</li>
@@ -119,7 +119,7 @@
                     md4>
                     <v-card-text>
                       <span class="title">Soft de Administración</span>
-                      <div class="text-md-justify">Nuestro Sistema de Ayuda a la Explotación (SAE) permite administrar y monitorear todo su equipamiento, sin importar la variedad, cantidad y diversidad de los equipos que lo compongan, desde un único centro de control. Permite realizar ABMs de los equipos, controlar accesos, configurar los sentidos de paso, alarmas y mucho más.</div>
+                      <div class="text-md-justify pt-3">Nuestro Sistema de Ayuda a la Explotación (SAE) permite administrar y monitorear todo su equipamiento, sin importar la variedad, cantidad y diversidad de los equipos que lo compongan, desde un único centro de control. Permite realizar ABMs de los equipos, controlar accesos, configurar los sentidos de paso, alarmas y mucho más.</div>
                     </v-card-text>
                   </v-flex>
                 </v-layout>
