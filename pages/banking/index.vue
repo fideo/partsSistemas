@@ -13,19 +13,20 @@
             src="/images/banking.jpg"
           >
             <v-container
-              fill-height
+              grid-list-md
               fluid
             >
-              <v-layout fill-height>
-                <v-flex
-                  xs12
-                  align-end
-                  flexbox
-                >
-                  <h1 class="blue-grey--text text--darken-4">Banking</h1>
-                </v-flex>
+              <v-layout 
+              row
+              wrap
+              >
+                <h1 class="blue-grey--text text--darken-4">Banking</h1>
               </v-layout>
             </v-container>
+            <v-card-actions class="mt-5 pt-5">
+              <v-spacer></v-spacer>
+              <menuBanking />
+            </v-card-actions>
           </v-img>
           <v-card-title>
             <div class="pt-3">
@@ -45,7 +46,7 @@
                     md6
                   >
                     <v-card-text class="px-0">
-                      <p class="pl-4 pr-4">La amplia gama de terminales que ofrecemos incluye: Terminales de auto atención y consulta, Equipos de depósito de valores y manejo de efectivo, Terminales de punto de venta, Kioskos de entrega de turnos, Equipos de cobranzas y recaudaciones, Módulos de cartelería digital y Vidrieras interactivas. Además, ofrecemos la posibilidad de adaptar modelos existentes o desarrollar equipos totalmente nuevos a requerimiento de nuestros clientes</p>
+                      <p class="pl-4 pr-4 text-md-justify text-xs-justify">La amplia gama de terminales que ofrecemos incluye: Terminales de auto atención y consulta, Equipos de depósito de valores y manejo de efectivo, Terminales de punto de venta, Kioskos de entrega de turnos, Equipos de cobranzas y recaudaciones, Módulos de cartelería digital y Vidrieras interactivas. Además, ofrecemos la posibilidad de adaptar modelos existentes o desarrollar equipos totalmente nuevos a requerimiento de nuestros clientes</p>
                     </v-card-text>
                   </v-flex>
                   <v-flex
@@ -55,7 +56,7 @@
                     md6
                   >
                     <v-card-text class="px-0">
-                      <p class="pl-4 pr-4">Toda la fabricación de las terminales se lleva a cabo bajo certificación de estándares ISO 9001-2008 en procesos productivos. Todos los equipos cuentan con certificaciones en seguridad eléctrica y cumplen con los estándares de la directiva RoHS. Todas las terminales se ofrecen bajo la modalidad de plataforma de software abierto, esto significa que cada cliente puede desarrollar su propia aplicación, instalar la de un tercero o solicitar su desarrollo a Parts Sistemas</p>
+                      <p class="pl-4 pr-4 text-md-justify text-xs-justify">Toda la fabricación de las terminales se lleva a cabo bajo certificación de estándares ISO 9001-2008 en procesos productivos. Todos los equipos cuentan con certificaciones en seguridad eléctrica y cumplen con los estándares de la directiva RoHS. Todas las terminales se ofrecen bajo la modalidad de plataforma de software abierto, esto significa que cada cliente puede desarrollar su propia aplicación, instalar la de un tercero o solicitar su desarrollo a Parts Sistemas</p>
                     </v-card-text>
                   </v-flex>
                 </v-layout>
@@ -69,7 +70,11 @@
 </template>
 
 <script>
+import menuBanking from '~/components/menuBanking'
 export default {
+  components: {
+    menuBanking
+  },
   head: {
     title: 'Banking'
   }

@@ -10,7 +10,7 @@
           <v-img
             class="white--text"
             height="250px"
-            src="/images/transporteVehicular.jpg"
+            src="/images/sat-iv.jpg"
           >
             <v-container
               grid-list-md
@@ -65,54 +65,80 @@
                     sm6
                     md6
                   >
-                    <v-btn color="warning" fab dark>
-                      <v-icon>account_circle</v-icon> 
+                    <v-btn color="warning" fab dark small>
+                      <v-icon>map</v-icon>
                     </v-btn>
+                    <span class="caption "> Protección de intersecciones y cruces de calles peligrosas</span>
                   </v-flex>
                   <v-flex
                     xs12
                     sm6
                     md6
                   >
-                  <v-btn color="warning" fab dark>
+                  <v-btn color="warning" fab dark small>
                     <v-icon>cancel</v-icon>
                   </v-btn>
+                    <span class="caption "> Advertencia visual de exceso de velocidad y proximidad</span>
                   </v-flex>
                   <v-flex
                     xs12
                     sm6
                     md6
                   >
-                  <v-btn color="warning" fab dark>
-                    <v-icon>account_group</v-icon>
+                  <v-btn color="warning" fab dark small>
+                    <v-icon>wifi</v-icon>
                   </v-btn>
+                    <span class="caption "> Medición de velocidad de 15 km/h hasta 150 km/h</span>
                   </v-flex>
                   <v-flex
                     xs12
                     sm6
                     md6
                   >
-                  <v-btn color="warning" fab dark>
+                  <v-btn color="warning" fab dark small>
                     <v-icon>account_circle</v-icon>
                   </v-btn>
+                    <span class="caption "> Conteo y registro de vehículos circurlantes</span>
                   </v-flex>
                   <v-flex
                     xs12
                     sm6
                     md6
                   >
-                  <v-btn color="warning" fab dark>
-                    <v-icon>account_circle</v-icon>
+                  <v-btn color="warning" fab dark small>
+                    <v-icon>my_location</v-icon>
                   </v-btn>
+                    <span class="caption "> Rango de sensado de hasta 100 metros de distancia</span>
                   </v-flex>
                   <v-flex
                     xs12
                     sm6
                     md6
                   >
-                  <v-btn color="warning" fab dark>
-                    <v-icon>account_circle</v-icon>
+                  <v-btn color="warning" fab dark small>
+                    <v-icon>device_hub</v-icon>
                   </v-btn>
+                    <span class="caption "> Monitoreo y administración remota y centralizada</span>
+                  </v-flex>
+                  <v-flex
+                    xs12
+                    sm6
+                    md6
+                  >
+                  <v-btn color="warning" fab dark small>
+                    <v-icon>cloud_upload</v-icon>
+                  </v-btn>
+                    <span class="caption "> Transmisión de información a base central de monitoreo</span>
+                  </v-flex>
+                  <v-flex
+                    xs12
+                    sm6
+                    md6
+                  >
+                  <v-btn color="warning" fab dark small>
+                    <v-icon>brightness_5</v-icon>
+                  </v-btn>
+                    <span class="caption "> Alimentación sustentada con paneles solares</span>
                   </v-flex>
                 </v-layout>
               </v-container>

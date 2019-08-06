@@ -59,7 +59,7 @@
                     md6
                   >
                     <v-card-text>
-                      <p class="pl-4 pr-4 text-md-justify">Nuestros molinetes, desarrollados integramente en acero inoxidable y con un cuidado diseño, son capaces de soportar altos caudales de personas debido a que son fabricados principalmente para su uso en el Transporte Público de Pasajeros. Cuentan con un mecanismo de tres aspas, software de control totalmente configurable de acuerdo a las necesidades del usuario y un sistema remoto de administración.</p>
+                      <p class="pl-4 pr-4 text-md-justify text-xs-justify">Nuestros molinetes, desarrollados integramente en acero inoxidable y con un cuidado diseño, son capaces de soportar altos caudales de personas debido a que son fabricados principalmente para su uso en el Transporte Público de Pasajeros. Cuentan con un mecanismo de tres aspas, software de control totalmente configurable de acuerdo a las necesidades del usuario y un sistema remoto de administración.</p>
                     </v-card-text>
                   </v-flex>
                   <v-flex
@@ -69,7 +69,7 @@
                     md6
                   >
                     <v-card-text>
-                      <p class="pl-4 pr-4 text-md-justify">El giro de las aspas, en situación normal, es libre y los dispositivos electromecánicos de control actúan solamente en caso de un intento de paso no autorizado, minimizando el consumo eléctrico y alargando la vida útil de toda la mecánica asociada. Su diseño modular, incluso del rotor principal, ofrece la versatilidad de poder efectuar un rápido reemplazo de cualquier componente del equipo en su lugar de trabajo.</p>
+                      <p class="pl-4 pr-4 text-md-justify text-xs-justify">El giro de las aspas, en situación normal, es libre y los dispositivos electromecánicos de control actúan solamente en caso de un intento de paso no autorizado, minimizando el consumo eléctrico y alargando la vida útil de toda la mecánica asociada. Su diseño modular, incluso del rotor principal, ofrece la versatilidad de poder efectuar un rápido reemplazo de cualquier componente del equipo en su lugar de trabajo.</p>
                     </v-card-text>
                   </v-flex>
                   <v-flex
@@ -119,7 +119,7 @@
                     md4>
                     <v-card-text>
                       <span class="title">Soft de Administración</span>
-                      <div class="text-md-justify pt-3">Nuestro Sistema de Ayuda a la Explotación (SAE) permite administrar y monitorear todo su equipamiento, sin importar la variedad, cantidad y diversidad de los equipos que lo compongan, desde un único centro de control. Permite realizar ABMs de los equipos, controlar accesos, configurar los sentidos de paso, alarmas y mucho más.</div>
+                      <div class="text-md-justify text-xs-justify pt-3">Nuestro Sistema de Ayuda a la Explotación (SAE) permite administrar y monitorear todo su equipamiento, sin importar la variedad, cantidad y diversidad de los equipos que lo compongan, desde un único centro de control. Permite realizar ABMs de los equipos, controlar accesos, configurar los sentidos de paso, alarmas y mucho más.</div>
                     </v-card-text>
                   </v-flex>
                 </v-layout>

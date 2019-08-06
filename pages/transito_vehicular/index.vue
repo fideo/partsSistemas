@@ -46,7 +46,7 @@
                     md6
                   >
                     <v-card-text class="px-0">
-                      <p class="pl-4 pr-4">Comenzamos desarrollando sistemas de estacionamiento medido mediante parquímetros y luego incorporamos sistemas de registración de estacionamiento mediante telefonía celular. Posteriormente incursionamos en el mercado semafórico desarrollando contadores de cuenta regresiva inteligentes que se adaptan automaticamente a la red semafórica existente y no necesitan preprogramación</p>
+                      <p class="pl-4 pr-4 text-md-justify text-xs-justify">Comenzamos desarrollando sistemas de estacionamiento medido mediante parquímetros y luego incorporamos sistemas de registración de estacionamiento mediante telefonía celular. Posteriormente incursionamos en el mercado semafórico desarrollando contadores de cuenta regresiva inteligentes que se adaptan automaticamente a la red semafórica existente y no necesitan preprogramación</p>
                     </v-card-text>
                   </v-flex>
                   <v-flex
@@ -56,7 +56,7 @@
                     md6
                   >
                     <v-card-text class="px-0">
-                      <p class="pl-4 pr-4">Actualmente111 estamos ofreciendo sistemas de control de tránsito de última generación basados en radares que permiten detectar excesos de velocidad, invasión de senda peatonal y cruce de semáforos con luz roja. Así mismo, estamos presentando el nuevo Sistema de Advertencia Temprana de Intersecciones Vehiculares basado también en tecnología no intrusiva</p>
+                      <p class="pl-4 pr-4 text-md-justify text-xs-justify">Actualmente111 estamos ofreciendo sistemas de control de tránsito de última generación basados en radares que permiten detectar excesos de velocidad, invasión de senda peatonal y cruce de semáforos con luz roja. Así mismo, estamos presentando el nuevo Sistema de Advertencia Temprana de Intersecciones Vehiculares basado también en tecnología no intrusiva</p>
                     </v-card-text>
                   </v-flex>
                   <v-flex

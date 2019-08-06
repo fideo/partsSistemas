@@ -46,7 +46,7 @@
                     md6
                   >
                     <v-card-text>
-                      <p class="pl-4 pr-4">Comenzamos nuestro camino siendo los responsables de informatizar, por primera vez, la venta de pasajes de los ferrocarriles más importantes de nuestro país. Aceptamos el desafio y diseñamos, fabricamos e instalamos más de 300 expendedoras de tickets que funcionan como una gran red interconectada de venta y recarga de tarjetas de pasajes</p>
+                      <p class="pl-4 pr-4 text-md-justify text-xs-justify">Comenzamos nuestro camino siendo los responsables de informatizar, por primera vez, la venta de pasajes de los ferrocarriles más importantes de nuestro país. Aceptamos el desafio y diseñamos, fabricamos e instalamos más de 300 expendedoras de tickets que funcionan como una gran red interconectada de venta y recarga de tarjetas de pasajes</p>
                     </v-card-text>
                   </v-flex>
                   <v-flex
@@ -56,7 +56,7 @@
                     md6
                   >
                     <v-card-text>
-                      <p class="pl-4 pr-4">Mucho tiempo ha pasado desde nuestras primeras expendedoras de pasajes y grandes cambios se han producido en las áreas de tecnología e ingeniería. A la fecha, nuestros ingenieros han desarrollado más de 15 modelos distintos de expendedoras de pasajes, molinetes de alto tránsito, carteles de información y sistemas de control de flota y seguimiento satelital</p>
+                      <p class="pl-4 pr-4 text-md-justify text-xs-justify">Mucho tiempo ha pasado desde nuestras primeras expendedoras de pasajes y grandes cambios se han producido en las áreas de tecnología e ingeniería. A la fecha, nuestros ingenieros han desarrollado más de 15 modelos distintos de expendedoras de pasajes, molinetes de alto tránsito, carteles de información y sistemas de control de flota y seguimiento satelital</p>
                     </v-card-text>
                   </v-flex>
                 </v-layout>

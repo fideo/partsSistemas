@@ -25,7 +25,7 @@
           >/7600</a>
           E-mail: <a
             class="link"
-            href="mailto:ventas@partssistemas.com.ar?subject=Enviado desde el sitio web&body=este es el cuerpo"
+            href="mailto:ventas@partssistemas.com.ar?subject=Consulta enviada desde el sitio web&body=Escribanos su inquietud, que a la brevedad será respondida."
           >ventas@partssistemas.com.ar</a></span>
       </v-flex>
     </v-footer>
