@@ -20,7 +20,7 @@
                 row
                 wrap
               >
-                <h1 class="blue-grey--text text--darken-4">Transporte Público</h1>
+                <h1 class="blue-grey--text text--darken-4 sombraBlanca">Transporte Público</h1>
               </v-layout>
             </v-container>
             <v-card-actions class="mt-5 pt-5">

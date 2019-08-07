@@ -187,7 +187,7 @@ export default {
     menuBanking
   },
   head:{
-    title: 'Tránsito Vehicular'
+    title: 'Q-Parts - Banking '
   },
 };
 </script>

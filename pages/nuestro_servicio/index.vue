@@ -22,7 +22,7 @@
                   align-end
                   flexbox
                 >
-                  <h1 class="blue-grey--text text--darken-4 amber ">Nuestro Servicio</h1>
+                  <h1 class="blue-grey--text text--darken-4 sombraBlanca">Nuestro Servicio</h1>
                 </v-flex>
               </v-layout>
             </v-container>
@@ -71,6 +71,11 @@
               </v-container>
             </div>
           </v-card-title>
+          <v-img
+            class="white--text"
+            height="250px"
+            src="/images/nuestroServicio_2.jpg"
+          ></v-img>
         </v-card>
       </v-flex>
     </v-layout>
