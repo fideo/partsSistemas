@@ -13,7 +13,7 @@
             src="/images/nuestroServicio.jpg"
           >
             <v-container
-              fill-height
+              grid-list-md
               fluid
             >
               <v-layout fill-height>
@@ -26,6 +26,10 @@
                 </v-flex>
               </v-layout>
             </v-container>
+            <v-card-actions class="mt-5 pt-5">
+            <v-spacer></v-spacer>
+            <menuEnfoServMerc />
+            </v-card-actions>
           </v-img>
           <v-card-title>
             <div class="pt-3">
@@ -83,7 +87,11 @@
 </template>
 
 <script>
+import menuEnfoServMerc from '~/components/menuEnfoServMerc'
 export default {
+  components:{
+    menuEnfoServMerc
+  },
   head: {
     title: 'Nuestro Servicio'
   }

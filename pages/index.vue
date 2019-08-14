@@ -19,6 +19,7 @@
         <h1 class="text-xs-center text-sm-center text-md-center text-lg-center text-xl-center">
           Nos complace saber que está interesado en nuestra compañía y queremos proporcionarle información sobre nuestras soluciones, productos y servicios
         </h1>
+        <SubMenu />
         <p class="mt-3 text-xs-justify text-sm-justify text-md-justify text-lg-justify text-xl-justify">
           Parts Sistemas S.A. desarrolla y provee soluciones tecnológicas de ingeniería y productos de última generación para dar respuesta a distintas necesidades. Nacimos como una empresa orientada a dar soluciones a necesidades del transporte público de pasajeros de nuestro país y logramos convertirnos en líderes del mercado tecnológico ferroviario. Gracias a una incondicional tradición de servicio al cliente, hoy estamos orgullosos de ofrecer productos y servicios en otras areas como tránsito, banking y control de acceso.
         </p>
@@ -36,6 +37,7 @@
 <script>
 import PartsSistemasLogo from "~/components/PartsSistemasLogo.vue";
 import Logo from "~/components/Logo.vue";
+import SubMenu from '~/components/SubMenu';
 
 export default {
   head:{
@@ -43,7 +45,8 @@ export default {
   },
   components: {
     PartsSistemasLogo,
-    Logo
+    Logo,
+    SubMenu
   }
 };
 </script>

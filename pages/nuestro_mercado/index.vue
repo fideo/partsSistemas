@@ -16,16 +16,19 @@
               grid-list-md
               fluid
             >
-              <v-layout
-                row
-                wrap
-              >
-                <h1 class="blue-grey--text text--darken-4">Nuestro Mercado</h1>
+              <v-layout fill-height>
+                <v-flex
+                  xs12
+                  align-end
+                  flexbox
+                >
+                  <h1 class="blue-grey--text text--darken-4">Nuestro Mercado</h1>
+                </v-flex>
               </v-layout>
             </v-container>
             <v-card-actions class="mt-5 pt-5">
-              <v-spacer></v-spacer>
-              <menuTransitoVehicular />
+            <v-spacer></v-spacer>
+            <menuEnfoServMerc />
             </v-card-actions>
           </v-img>
           <v-card-title>
@@ -125,7 +128,11 @@
 </template>
 
 <script>
+import menuEnfoServMerc from '~/components/menuEnfoServMerc'
 export default {
+  components:{
+    menuEnfoServMerc
+  },
   head:{
     title: 'Nuestro Mercado'
   },

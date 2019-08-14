@@ -16,13 +16,20 @@
               grid-list-md
               fluid
             >
-              <v-layout
-                row
-                wrap
-              >
-                <h1 class="white--text text--darken-4">Nuestro Enfoque</h1>
+              <v-layout fill-height>
+                <v-flex
+                  xs12
+                  align-end
+                  flexbox
+                >
+                  <h1 class="white--text text--darken-4">Nuestro Enfoque</h1>
+                </v-flex>
               </v-layout>
             </v-container>
+            <v-card-actions class="mt-5 pt-5">
+            <v-spacer></v-spacer>
+            <menuEnfoServMerc />
+            </v-card-actions>
           </v-img>
           <v-card-title>
             <div class="pt-3">
@@ -66,7 +73,11 @@
 </template>
 
 <script>
+import menuEnfoServMerc from '~/components/menuEnfoServMerc'
 export default {
+  components:{
+    menuEnfoServMerc
+  },
   head: {
     title: 'Nuestro Enfoque'
   }
