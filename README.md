@@ -23,8 +23,15 @@ $ npm run generate
 
 * ***Estructura***
 * ***Logo en Vectorial***
-* Contenído
-* ***Ítems de menú ***
+* ***Contenído***
+* ***Ítems de menú***
+* Publicarlo en la url oficial www.partssistemas.com.ar
+
+## Plugins
+
+* ***Google Analytics***
+
+## Frame
 
 ***Lo que está en negrita y cursiva ya está realizado***
 
